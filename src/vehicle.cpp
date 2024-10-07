@@ -37,6 +37,11 @@ void Vehicle::start()
     state_ = State::On;
 }
 
+void Vehicle::stop()
+{
+    state_ = State::Off;
+}
+
 void Vehicle::getIn(int count)
 {
     int newCount = riders_ + count;

@@ -26,7 +26,7 @@ public:
 
     virtual void start();
 
-    // virtual void stop();
+    virtual void stop();
 
     // virtual void troubleshoot();
 
